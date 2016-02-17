@@ -1,4 +1,4 @@
-function check_strength(password, id = '') {
+function passwordChecker(password, id = '') {
     var strength = $('#' + id), length = password.length, points = 0, int_count = 0,
         str_count = 0,
         upper_count = 0,
