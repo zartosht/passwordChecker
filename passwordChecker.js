@@ -53,7 +53,7 @@ function passwordChecker(password, id = '') {
     strength.css('width', points + "%");
 
     /*
-    If you didn't pass any ID, the result will be returned to you so you can whatever you want with it.
+    If you didn't pass any ID, the result will be returned to you so you can do whatever you want with it.
      */
     if(id.length == 0){
         return points;
